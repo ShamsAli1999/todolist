@@ -1,12 +1,25 @@
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class TodoList {
-    /*
-     * Add a new item to the list, given a description and priority.
-     */
+    List <TodoListItem> list = new Arraylist<>();
+
+	
+
+public TodoListItem getDescription() {
+	// TODO Auto-generated method stub
+		return null;
+		}
+
+	
+
     public void addItem(String description, int priority) {
-        // TODO
+    	TodoListItem item = new TodoListItem(description, priority);
+    	list.add(item);
+    	
+ 
+    	
     }
     
     /*
